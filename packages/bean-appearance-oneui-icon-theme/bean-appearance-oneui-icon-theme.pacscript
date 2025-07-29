@@ -4,7 +4,7 @@ arch=("all")
 pkgver="0.1.1"
 pkgdesc="OneUI Icon Theme"
 maintainer="develop <develop@home.heaven>"
-source=("https://github.com/mjkim0727/OneUI4-Icons/archive/refs/heads/master.tar.gz")
+source=("https://github.com/mjkim0727/OneUI4-Icons/archive/refs/heads/main.tar.gz")
 url="https://github.com/samwhelp/deb-coffee-fancy/tree/main/packages/bean-appearance-oneui-icon-theme"
 depends=()
 pacdeps=()
@@ -28,8 +28,8 @@ package () {
 	#cd "${_archive}"
 
 	echo
-	echo cd "OneUI4-Icons-master"
-	cd "OneUI4-Icons-master"
+	echo cd "OneUI4-Icons-main"
+	cd "OneUI4-Icons-main"
 
 	local icons_dir_path="${pkgdir}/usr/share/icons"
 
