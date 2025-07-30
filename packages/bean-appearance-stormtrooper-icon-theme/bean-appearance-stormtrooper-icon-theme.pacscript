@@ -44,6 +44,19 @@ package () {
 	tar xf StormTrooper.tar.xz
 
 
+	##
+	## ## Manpage
+	##
+	## * [man 1 find](https://manpages.debian.org/bookworm/findutils/find.1.en.html#Executing_a_command_for_each_file)
+	##
+	## > Search: `Executing a command for each file`
+	##
+	## ``` sh
+	## find . -type f -exec file '{}' \;
+	## ```
+	##
+
+
 	echo
 	echo "chmod for dir"
 	find "StormTrooper" -type d -exec chmod 755 '{}' \;
