@@ -45,13 +45,13 @@ package () {
 
 
 	echo
-	echo find "StormTrooper" -type d -exec chmod 755 {}
-	find "StormTrooper" -type d -exec chmod 755 {}
+	echo "chmod for dir"
+	find "StormTrooper" -type d -exec chmod 755 '{}' \;
 
 
 	echo
-	echo find "StormTrooper" -type f -exec chmod 644 {}
-	find "StormTrooper" -type f -exec chmod 644 {}
+	echo "chmod for file"
+	find "StormTrooper" -type f -exec chmod 644 '{}' \;
 
 
 
