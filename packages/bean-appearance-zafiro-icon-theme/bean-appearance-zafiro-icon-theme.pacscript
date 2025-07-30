@@ -49,6 +49,20 @@ package () {
 	cp -rfT "Light" "${icons_dir_path}/Zafiro-Light"
 
 
+
+
+	echo
+	echo gtk-update-icon-cache "${icons_dir_path}/Zafiro-Dark"
+	gtk-update-icon-cache "${icons_dir_path}/Zafiro-Dark"
+
+
+	echo
+	echo gtk-update-icon-cache "${icons_dir_path}/Zafiro-Light"
+	gtk-update-icon-cache "${icons_dir_path}/Zafiro-Light"
+
+
+
+
 	echo
 	echo cd "${OLDPWD}"
 	cd "${OLDPWD}"

@@ -54,6 +54,25 @@ package () {
 	cp -rfT "OneUI-light" "${icons_dir_path}/OneUI-light"
 
 
+
+
+	echo
+	echo gtk-update-icon-cache "${icons_dir_path}/OneUI"
+	gtk-update-icon-cache "${icons_dir_path}/OneUI"
+
+
+	echo
+	echo gtk-update-icon-cache "${icons_dir_path}/OneUI-dark"
+	gtk-update-icon-cache "${icons_dir_path}/OneUI-dark"
+
+
+	echo
+	echo gtk-update-icon-cache "${icons_dir_path}/OneUI-light"
+	gtk-update-icon-cache "${icons_dir_path}/OneUI-light"
+
+
+
+
 	echo
 	echo cd "${OLDPWD}"
 	cd "${OLDPWD}"
