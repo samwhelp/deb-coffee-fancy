@@ -44,6 +44,25 @@ package () {
 	cp -rfT "src" "${icons_dir_path}"
 
 
+
+
+	echo
+	echo gtk-update-icon-cache "${icons_dir_path}/Pure"
+	gtk-update-icon-cache "${icons_dir_path}/Pure"
+
+
+	echo
+	echo gtk-update-icon-cache "${icons_dir_path}/Pure-Dark"
+	gtk-update-icon-cache "${icons_dir_path}/Pure-Dark"
+
+
+	echo
+	echo gtk-update-icon-cache "${icons_dir_path}/Pure-Light"
+	gtk-update-icon-cache "${icons_dir_path}/Pure-Light"
+
+
+
+
 	echo
 	echo cd "${OLDPWD}"
 	cd "${OLDPWD}"
