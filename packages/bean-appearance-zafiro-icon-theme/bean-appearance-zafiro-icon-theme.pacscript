@@ -52,13 +52,13 @@ package () {
 
 
 	echo
-	echo gtk-update-icon-cache "${icons_dir_path}/Zafiro-Dark"
-	gtk-update-icon-cache "${icons_dir_path}/Zafiro-Dark"
+	echo gtk-update-icon-cache -f "${icons_dir_path}/Zafiro-Dark"
+	gtk-update-icon-cache -f "${icons_dir_path}/Zafiro-Dark"
 
 
 	echo
-	echo gtk-update-icon-cache "${icons_dir_path}/Zafiro-Light"
-	gtk-update-icon-cache "${icons_dir_path}/Zafiro-Light"
+	echo gtk-update-icon-cache -f "${icons_dir_path}/Zafiro-Light"
+	gtk-update-icon-cache -f "${icons_dir_path}/Zafiro-Light"
 
 
 

@@ -57,18 +57,18 @@ package () {
 
 
 	echo
-	echo gtk-update-icon-cache "${icons_dir_path}/OneUI"
-	gtk-update-icon-cache "${icons_dir_path}/OneUI"
+	echo gtk-update-icon-cache -f "${icons_dir_path}/OneUI"
+	gtk-update-icon-cache -f "${icons_dir_path}/OneUI"
 
 
 	echo
-	echo gtk-update-icon-cache "${icons_dir_path}/OneUI-dark"
-	gtk-update-icon-cache "${icons_dir_path}/OneUI-dark"
+	echo gtk-update-icon-cache -f "${icons_dir_path}/OneUI-dark"
+	gtk-update-icon-cache -f "${icons_dir_path}/OneUI-dark"
 
 
 	echo
-	echo gtk-update-icon-cache "${icons_dir_path}/OneUI-light"
-	gtk-update-icon-cache "${icons_dir_path}/OneUI-light"
+	echo gtk-update-icon-cache -f "${icons_dir_path}/OneUI-light"
+	gtk-update-icon-cache -f "${icons_dir_path}/OneUI-light"
 
 
 

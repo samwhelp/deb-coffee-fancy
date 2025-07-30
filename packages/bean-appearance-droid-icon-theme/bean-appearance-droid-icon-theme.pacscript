@@ -50,8 +50,8 @@ package () {
 
 
 	echo
-	echo gtk-update-icon-cache "${icons_dir_path}/Droid"
-	gtk-update-icon-cache "${icons_dir_path}/Droid"
+	echo gtk-update-icon-cache -f "${icons_dir_path}/Droid"
+	gtk-update-icon-cache -f "${icons_dir_path}/Droid"
 
 
 	echo

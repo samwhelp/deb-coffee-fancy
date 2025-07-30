@@ -50,8 +50,8 @@ package () {
 
 
 	echo
-	echo gtk-update-icon-cache "${icons_dir_path}/GreyStone"
-	gtk-update-icon-cache "${icons_dir_path}/GreyStone"
+	echo gtk-update-icon-cache -f "${icons_dir_path}/GreyStone"
+	gtk-update-icon-cache -f "${icons_dir_path}/GreyStone"
 
 
 	echo
