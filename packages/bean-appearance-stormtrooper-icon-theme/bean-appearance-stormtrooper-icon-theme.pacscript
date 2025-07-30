@@ -45,6 +45,17 @@ package () {
 
 
 	echo
+	echo find "StormTrooper" -type d -exec chmod 755 {}
+	find "StormTrooper" -type d -exec chmod 755 {}
+
+
+	echo
+	echo find "StormTrooper" -type f -exec chmod 644 {}
+	find "StormTrooper" -type f -exec chmod 644 {}
+
+
+
+	echo
 	echo cp -rfT "StormTrooper" "${icons_dir_path}/StormTrooper"
 	cp -rfT "StormTrooper" "${icons_dir_path}/StormTrooper"
 
