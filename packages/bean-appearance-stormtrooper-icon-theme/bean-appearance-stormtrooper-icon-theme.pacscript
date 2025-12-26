@@ -4,13 +4,16 @@ arch=("all")
 pkgver="0.1.1"
 pkgdesc="StormTrooper Icon Theme"
 maintainer="develop <develop@home.heaven>"
-source=("https://github.com/SethStormR/Stormtrooper/archive/refs/heads/main.tar.gz")
+source=("https://github.com/samwhelp/stormtrooper-icon-theme/archive/refs/heads/port.tar.gz")
 url="https://github.com/samwhelp/deb-coffee-fancy/tree/main/packages/bean-appearance-stormtrooper-icon-theme"
 depends=()
 pacdeps=()
 replace=()
 
 
+##
+## source=("https://github.com/SethStormR/Stormtrooper/archive/refs/heads/main.tar.gz")
+##
 
 
 package () {
@@ -28,8 +31,8 @@ package () {
 	#cd "${_archive}"
 
 	echo
-	echo cd "Stormtrooper-main"
-	cd "Stormtrooper-main"
+	echo cd "stormtrooper-icon-theme-port"
+	cd "stormtrooper-icon-theme-port"
 
 	local icons_dir_path="${pkgdir}/usr/share/icons"
 
@@ -39,33 +42,15 @@ package () {
 	mkdir -p "${icons_dir_path}"
 
 
+
+
+	##
+	## ## default edition
+	##
+
 	echo
 	echo tar xf StormTrooper.tar.xz
 	tar xf StormTrooper.tar.xz
-
-
-	##
-	## ## Manpage
-	##
-	## * [man 1 find](https://manpages.debian.org/bookworm/findutils/find.1.en.html#Executing_a_command_for_each_file)
-	##
-	## > Search: `Executing a command for each file`
-	##
-	## ``` sh
-	## find . -type f -exec file '{}' \;
-	## ```
-	##
-
-
-	echo
-	echo "chmod for dir"
-	find "StormTrooper" -type d -exec chmod 755 '{}' \;
-
-
-	echo
-	echo "chmod for file"
-	find "StormTrooper" -type f -exec chmod 644 '{}' \;
-
 
 
 	echo
@@ -76,6 +61,8 @@ package () {
 	echo
 	echo gtk-update-icon-cache -f "${icons_dir_path}/StormTrooper"
 	gtk-update-icon-cache -f "${icons_dir_path}/StormTrooper"
+
+
 
 
 	echo
