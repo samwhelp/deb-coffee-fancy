@@ -34,6 +34,7 @@
 | [bean-appearance-orion-icon-theme](https://github.com/samwhelp/deb-coffee-fancy/blob/main/packages/bean-appearance-orion-icon-theme/bean-appearance-orion-icon-theme.pacscript) | [Source](https://github.com/SethStormR/Orion) |
 | [bean-appearance-pure-icon-theme](https://github.com/samwhelp/deb-coffee-fancy/blob/main/packages/bean-appearance-pure-icon-theme/bean-appearance-pure-icon-theme.pacscript) | [Source](https://github.com/mjkim0727/Pure-icon-theme) |
 | [bean-appearance-stormtrooper-icon-theme](https://github.com/samwhelp/deb-coffee-fancy/blob/main/packages/bean-appearance-stormtrooper-icon-theme/bean-appearance-stormtrooper-icon-theme.pacscript) | [Source](https://github.com/SethStormR/Stormtrooper) |
+| [bean-appearance-snow-icon-theme](https://github.com/samwhelp/deb-coffee-fancy/blob/main/packages/bean-appearance-snow-icon-theme/bean-appearance-snow-icon-theme.pacscript) | [Source](https://github.com/SethStormR/Snow) |
 | [bean-appearance-zafiro-icon-theme](https://github.com/samwhelp/deb-coffee-fancy/blob/main/packages/bean-appearance-zafiro-icon-theme/bean-appearance-zafiro-icon-theme.pacscript) | [Source](https://github.com/zayronxio/Zafiro-icons) |
 
 
